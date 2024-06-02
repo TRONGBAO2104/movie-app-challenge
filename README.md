@@ -7,10 +7,6 @@
 
 **Demo:** [https://movie-app-by-baobao.netlify.app/](https://develop--movie-app-challenge-v1.netlify.app/)
 
-**Movies** is a movies app using the [The Movie Database API](https://developers.themoviedb.org/3).
-
-- Total time: 72 hours (please no more!)
-
 ## User Stories
 
 The following **required** functionality is completed:
