@@ -8,7 +8,7 @@
 
 The following **required** functionality is completed:
 
-- [ ] User can view a list of movies currently playing in theaters. Poster images load asynchronously.
+- ✅ User can view a list of movies currently playing in theaters. Poster images load asynchronously.
 - [ ] Add a tab bar for **Now Playing** and **Top Rated** movies.
 - [ ] Add a search bar.
 - [ ] User can view movie details by tapping on a cell.
