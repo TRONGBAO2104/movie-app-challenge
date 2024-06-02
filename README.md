@@ -25,6 +25,8 @@ The following **required** functionality is completed:
 
 ✅ Simple responsive.
 
+
+
 The following **optional** features are implemented:
 
 ✅ Implement segmented control to switch between list view and grid view.
@@ -38,6 +40,8 @@ The following **optional** features are implemented:
 ✅ Improve UX loading by skeleton loading.
 
 ✅ Enhance responsive.
+
+
 
 The following **additional** features are implemented:
 
