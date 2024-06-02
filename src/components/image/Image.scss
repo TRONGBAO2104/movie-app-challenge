@@ -1,0 +1,30 @@
+@import '../../assets/styles/variables.scss';
+
+.image {
+    width: 100%;
+    cursor: pointer;
+    height: 100%;
+}
+
+.image-custom {
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.image-list-layout {
+    width: 20%;
+    height: 100%;
+}
+
+@media (max-width: 992px) {
+    .image-custom {
+        width: 40%;
+        height: unset;
+    }
+}
+
+@media (max-width: 560px) {
+    .image-list-layout {
+        width: 100%;
+    }
+}

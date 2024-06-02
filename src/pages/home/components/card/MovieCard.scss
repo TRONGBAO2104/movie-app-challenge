@@ -1,0 +1,64 @@
+@import '../../../../assets/styles/variables.scss';
+
+.movie-wrapper {
+    display: flex;
+    background-color: $color-background;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+    .movie-wrapper-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.5rem;
+        margin: 0.75rem 0rem;
+
+        h4, p {
+            margin: unset;
+            color: $color-white;
+        }
+
+        h4 {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .description {
+            margin-top: 1rem;
+        }
+    }
+
+    .movie-wrapper-button {
+        background-color: $color-secondary-blue;
+        border: unset;
+        padding: 0.75rem;
+        border-radius: 0.5rem;
+        font-weight: 600;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+
+    .movie-wrapper-button:hover {
+        background-color: $color-primary-blue;
+    }
+}
+
+.movie-wrapper:hover {
+    border: 1px solid;
+}
+
+.movie-grid-wrapper {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-list-wrapper {
+    gap: 2rem;
+}
+
+@media (max-width: 560px) {
+    .movie-wrapper {
+        flex-direction: column;
+    }
+}

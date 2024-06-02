@@ -1,0 +1,67 @@
+@import '../../assets/styles/variables.scss';
+
+.pagination-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+    gap: 0.5rem;
+
+    .wrapper-number, .wrapper-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .wrapper-button {
+        gap: 2rem;
+    }
+
+    .number {
+        cursor: pointer;
+        color: $color-underline;
+        border: 1px solid $color-underline;
+        padding: 0.5rem 1rem;
+        border-radius: 1rem;
+    }
+
+    .active {
+        background-color: $color-underline;
+        color: $color-black;
+    }
+
+    .wrapper-input-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .input-page {
+            padding: 0.5rem;
+            background-color: $color-sub;
+            border: unset;
+            color: $color-white;
+        }
+
+        input {
+            margin-left: 1rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .pagination-container {
+        .wrapper-input-page {
+           
+            span {
+                display: none;
+            }
+    
+            input {
+                margin-left: unset;
+            }
+        }
+    }
+}

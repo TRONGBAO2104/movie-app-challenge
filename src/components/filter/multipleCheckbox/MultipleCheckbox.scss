@@ -1,0 +1,35 @@
+@import '../../../assets/styles/variables.scss';
+.multiple-checkbox-container {
+    background-color: $color-white;
+    height: 100%;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    margin-top: 2rem;
+    right: 0;
+    z-index: 1000;
+    max-height: 500px;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 0.5rems;
+
+    h4 {
+        margin: unset;
+        margin-bottom: 0.5rem;
+    }
+
+    .checkbox-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    input[type='checkbox'] {
+        width:1.5rem;
+        height:1.5rem;
+        background:white;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+}

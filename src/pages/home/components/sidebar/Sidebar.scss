@@ -1,0 +1,26 @@
+@import '../../../../assets/styles/variables.scss';
+.sidebar-container {
+    background-color: $color-secondary;
+    height: 100%;
+    padding: 1rem;
+
+    h4 {
+        margin: unset;
+        margin-bottom: 0.5rem;
+    }
+
+    .checkbox-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    input[type='checkbox'] {
+        width:1.5rem;
+        height:1.5rem;
+        background:white;
+    }
+
+    span {
+        font-size: 1rem;
+    }
+}

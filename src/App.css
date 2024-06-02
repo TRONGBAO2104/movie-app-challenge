@@ -1,0 +1,305 @@
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-primary-rgb: 13, 110, 253;
+    --bs-secondary-rgb: 108, 117, 125;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 13, 202, 240;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, 'Segoe UI', Roboto,
+        'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+        'Liberation Mono', 'Courier New', monospace;
+    --bs-gradient: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.15),
+        rgba(255, 255, 255, 0)
+    );
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+}
+
+*,
+::before,
+::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+
+body {
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    line-height: 1.54;
+    font-size: 14px;
+    color: #455a64;
+    background-color: #121212;
+    margin: 0;
+    height: 100%;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--bs-gray-100);
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bs-gray-100);
+}
+
+.title-m {
+    font-size: 14px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.title-l {
+    font-size: 14px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.title-xl {
+    font-size: 16px;
+    font-weight: 600;
+    color: #272727;
+}
+
+
+.body-m {
+    font-size: 14px;
+    font-weight: 400;
+    color: #272727;
+}
+
+.body-l {
+    font-size: 14px;
+    font-weight: 400;
+    color: #272727;
+}
+
+.button-l {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.heading-l {
+    font-size: 14px;
+    font-weight: 600;
+    color: #272727;
+}
+
+.text-l {
+    font-weight: 400;
+    font-size: 14px;
+    color: #272727;
+}
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
+
+.text-blue-600 {
+    --tw-text-opacity: 1;
+    color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.border-blue-600 {
+    --tw-border-opacity: 1;
+    border-color: rgb(37 99 235 / var(--tw-border-opacity));
+}
+
+.border-2 {
+    border-width: 2px;
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    body {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 39px;
+        font-weight: 600;
+        color: var(--bs-gray-100);
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 600;
+        color: var(--bs-gray-100);
+    }
+
+    h4 {
+        font-size: 20px;
+        font-weight: 600;
+        color: var(--bs-gray-100);
+    }
+
+    .title-l {
+        font-size: 16px;
+        font-weight: 600;
+        color: #272727;
+    }
+
+    .title-l-new {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .title-m {
+        font-size: 12px;
+        font-weight: 600;
+        color: #272727;
+    }
+
+    .body-m {
+        font-size: 12px;
+        font-weight: 400;
+        color: #272727;
+    }
+
+    .body-l {
+        font-size: 16px;
+        font-weight: 400;
+        color: #272727;
+    }
+
+    .button-l {
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+    }
+
+    .heading-l {
+        font-size: 16px;
+        font-weight: 600;
+        color: #272727;
+    }
+
+    .text-l {
+        font-weight: 400;
+        font-size: 16px;
+        color: #272727;
+    }
+
+    img.auto-size-image {
+        max-width: unset !important;
+        height: auto;
+    }
+}
+
+.input-bg-none {
+    background: none;
+    border: none;
+}
+
+.input-bg-none:focus {
+    box-shadow: none;
+}
+
+img.auto-size-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.markdown > * {
+    all: revert;
+}
+
+.whitespace-preline {
+    white-space: pre-line;
+}
