@@ -1,0 +1,103 @@
+@import '../../assets/styles/variables.scss';
+
+.search-page-container {
+    display: grid;
+    // grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1rem;
+
+    position: relative;
+}
+
+.left-side {
+    grid-column: span 1 / span 1;
+}
+
+.right-side {
+    grid-column: span 5 / span 5;
+}
+
+.movie-grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.filter-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5rem 0rem;
+
+    .tab-container {
+        display: flex;
+        align-items: center;
+        
+        .tabs {
+            display: flex;
+            position: relative;
+        
+            .line {
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 0.5rem;
+                transition: all 0.2s ease;
+            }
+        
+            .tab-item {
+                white-space: nowrap;
+                // min-width: 80px;
+                padding: 0rem 1.25rem 0.25rem;
+                font-size: 1rem;
+                font-weight: 600;
+                text-align: center;
+                color: $color-secondary;
+                border-bottom: 2px solid transparent;
+                opacity: 0.6;
+                cursor: pointer;
+                transition: all 0.5s ease;
+            }
+        
+            .tab-item::first-letter {
+                text-transform: uppercase;
+            }
+        
+            .active {
+                opacity: 1;
+                color: $color-primary-blue;
+                border-color: $color-primary-blue;
+            }
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .movie-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 1400px) {
+    .movie-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 960px) {
+    .movie-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .filter-wrapper {
+        flex-direction: column-reverse;
+        gap: 1rem;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .movie-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

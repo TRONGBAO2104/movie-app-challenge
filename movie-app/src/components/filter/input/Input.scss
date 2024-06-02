@@ -1,0 +1,15 @@
+@import '../../../assets/styles/variables.scss';
+
+.search-container {
+    width: 40%;
+    padding: 0.5rem;
+    background-color: $color-sub;
+    border: unset;
+    color: $color-white;
+}
+
+@media (max-width: 600px) {
+    .search-container {
+        width: 100%;
+    }
+}

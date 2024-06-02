@@ -123,13 +123,13 @@ body {
 h3 {
     font-size: 20px;
     font-weight: 600;
-    color: #272727;
+    color: var(--bs-gray-100);
 }
 
 h4 {
     font-size: 16px;
     font-weight: 600;
-    color: #272727;
+    color: var(--bs-gray-100);
 }
 
 .title-m {
@@ -213,19 +213,19 @@ button,
     h2 {
         font-size: 39px;
         font-weight: 600;
-        color: #272727;
+        color: var(--bs-gray-100);
     }
 
     h3 {
         font-size: 25px;
         font-weight: 600;
-        color: #272727;
+        color: var(--bs-gray-100);
     }
 
     h4 {
         font-size: 20px;
         font-weight: 600;
-        color: #272727;
+        color: var(--bs-gray-100);
     }
 
     .title-l {
