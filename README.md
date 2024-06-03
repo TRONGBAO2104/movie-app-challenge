@@ -45,10 +45,10 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-✅ User can discover more movie by a **Discover** tab have filter feature (Filter by Genres)
+✅ User can discover more movie by a **Discover** tab with Genres filter (only for Discover)
 
 ✅ User sees paginate through all movies from the database
 
-✅ User sees random trailer videos when click button Trailer
+✅ User sees random trailers/videos when click button Trailer
 
 ✅ User sees detail of one single movie, in a seperate page, when select a movie from the list
